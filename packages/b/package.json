@@ -1,0 +1,24 @@
+{
+  "name": "@duobo/monorepo-pkg-b",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@duobo/monorepo-pkg-a": "workspace *",
+    "vue": "2.6.14"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "vite": "^4.1.4"
+  },
+  "scripts": {
+    "watch": "tsc index.ts --outDir dist --watch",
+    "build": "rimraf dist && tsc index.ts --outDir dist",
+    "prepublish": "pnpm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
