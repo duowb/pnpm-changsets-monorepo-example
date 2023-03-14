@@ -1,3 +1,3 @@
-import { isEven } from '@duobo/monorepo-pkg-a';
+import { add } from '@duobo/pkg-c';
 
-export const isOdd = (x: number) => !isEven(x);
+export const isOdd = (x: number) => add(x, 10);
