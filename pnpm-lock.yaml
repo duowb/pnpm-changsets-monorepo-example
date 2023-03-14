@@ -18,12 +18,12 @@ importers:
 
   packages/b:
     specifiers:
-      '@duobo/monorepo-pkg-a': workspace *
+      '@duobo/pkg-c': workspace *
       typescript: ^4.9.4
       vite: ^4.1.4
       vue: 2.6.14
     dependencies:
-      '@duobo/monorepo-pkg-a': link:../a
+      '@duobo/pkg-c': link:../c
       vue: 2.6.14
     devDependencies:
       typescript: 4.9.4
@@ -31,7 +31,10 @@ importers:
 
   packages/c:
     specifiers:
+      '@duobo/pkg-a': workspace *
       typescript: ^4.9.4
+    dependencies:
+      '@duobo/pkg-a': link:../a
     devDependencies:
       typescript: 4.9.4
 
