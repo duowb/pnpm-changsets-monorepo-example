@@ -6,7 +6,7 @@
     "dist"
   ],
   "dependencies": {
-    "@duobo/pkg-a": "workspace *"
+    "@duobo/pkg-a": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^4.9.4"
