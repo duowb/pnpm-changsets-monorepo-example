@@ -1,7 +1,7 @@
 # @duobo/pkg-b
 
-## 0.0.1
+## 1.0.0
 
-### Patch Changes
+### Major Changes
 
-- @duobo/pkg-c@0.0.1
+- 测试 vue 组件
