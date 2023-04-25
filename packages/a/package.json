@@ -11,7 +11,8 @@
   "scripts": {
     "watch": "tsc index.ts --outDir dist --watch",
     "build": "rimraf dist && tsc index.ts --outDir dist",
-    "prepublish": "pnpm run build"
+    "prepublish": "node a.js",
+    "preversion": "node b.js"
   },
   "publishConfig": {
     "access": "public"

@@ -19,8 +19,7 @@
   "scripts": {
     "vueTsc": "vue-tsc --emitDeclarationOnly",
     "move": "move dist/src dist/types",
-    "build": "vite build && pnpm run vueTsc && pnpm run move",
-    "prepublish": "pnpm run build"
+    "build": "vite build && pnpm run vueTsc && pnpm run move"
   },
   "dependencies": {
     "@duobo/pkg-c": "workspace:*",
