@@ -1,1 +1,1 @@
-console.log('b---prepublish')
+console.log('b---preversion')
