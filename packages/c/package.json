@@ -1,6 +1,6 @@
 {
   "name": "@duobo/pkg-c",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "./dist/my-component-lib.umd.js",
   "module": "./dist/my-component-lib.es.js",
   "exports": {

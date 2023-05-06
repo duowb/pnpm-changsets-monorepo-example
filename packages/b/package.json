@@ -1,7 +1,7 @@
 {
   "name": "@duobo/pkg-b",
   "globName": "pkg-b",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.mjs.js",
   "types": "./dist/types/index.d.ts",
